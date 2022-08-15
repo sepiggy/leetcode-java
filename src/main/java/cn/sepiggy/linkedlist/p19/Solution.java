@@ -5,68 +5,78 @@ package cn.sepiggy.linkedlist.p19;
  */
 class Solution {
 
-    static class ListNode {
+	static class ListNode {
 
-        int val;
-        ListNode next;
+		int val;
+		ListNode next;
 
-        ListNode() {
-        }
+		ListNode() {
+		}
 
-        ListNode(int val) {
-            this.val = val;
-        }
+		ListNode(int val) {
+			this.val = val;
+		}
 
-        ListNode(int val, ListNode next) {
-            this.val = val;
-            this.next = next;
-        }
-    }
+		ListNode(int val, ListNode next) {
+			this.val = val;
+			this.next = next;
+		}
 
-    static ListNode arrayToLinkedList(int[] arr) {
-        ListNode dummy = new ListNode();
-        ListNode p = dummy;
-        for (int i : arr) {
-            p.next = new ListNode(i);
-            p = p.next;
-        }
-        return dummy.next;
-    }
+		static ListNode fromArray(int[] arr) {
+			ListNode dummy = new ListNode();
+			ListNode p = dummy;
+			for (int i : arr) {
+				p.next = new ListNode(i);
+				p = p.next;
+			}
+			return dummy.next;
+		}
 
-    static void printLinkedList(ListNode head) {
-        ListNode p = head;
-        String str = "";
-        while (p != null) {
-            str += p.val + "->";
-        }
-        System.out.println(str);
-    }
+		@Override
+		public String toString() {
+			ListNode p = this;
+			String str = "";
+			while (p != null) {
+				str += p.val + "->";
+				p = p.next;
+			}
+			return str.substring(0, str.lastIndexOf("->"));
+		}
+	}
 
-    public static ListNode removeNthFromEnd(ListNode head, int n) {
+	// 主函数
+	public static ListNode removeNthFromEnd(ListNode head, int n) {
+		// 解法中在链表头部接一个虚拟节点 dummy 是为了避免删除倒数第一个元素时出现空指针异常，在头部加入 dummy 节点并不影响尾部倒数第 k 个元素是什么。
+		// 虚拟头结点
+		ListNode dummy = new ListNode();
+		dummy.next = head;
+		// 删除倒数第 n 个，要先找倒数第 n + 1 个节点
+		ListNode x = findFromEnd(dummy, n + 1);
+		// 删掉倒数第 n 个节点
+		x.next = x.next.next;
+		return dummy.next;
+	}
 
-        ListNode p1 = head;
-        ListNode p2 = head;
+	// 返回链表的倒数第 k 个节点
+	public static ListNode findFromEnd(ListNode head, int k) {
+		ListNode p1 = head;
+		// p1 先走 k 步
+		for (int i = 0; i < k; i++) {
+			p1 = p1.next;
+		}
+		ListNode p2 = head;
+		// p1 和 p2 同时走 n - k 步
+		while (p1 != null) {
+			p2 = p2.next;
+			p1 = p1.next;
+		}
+		// p2 现在指向第 n - k 个节点
+		return p2;
+	}
 
-        int cnt = 1;
-
-        // 遍历到正数第n个节点
-        while (p1.next != null) {
-            p1 = p1.next;
-            cnt = cnt + 1;
-            if (cnt >= n + 1) {
-                p2 = p2.next;
-            }
-        }
-
-        // 此时p2指向倒数第n个结点的前节点
-        p2.next = p2.next.next;
-
-        return head;
-    }
-
-    public static void main(String[] args) {
-        final ListNode head = arrayToLinkedList(new int[]{1, 2, 3, 4, 5});
-        final ListNode listNode = removeNthFromEnd(head, 2);
-        printLinkedList(listNode);
-    }
+	public static void main(String[] args) {
+		final ListNode head = ListNode.fromArray(new int[]{1, 2, 3, 4, 5});
+		final ListNode listNode = removeNthFromEnd(head, 2);
+		System.out.println(listNode);
+	}
 }

@@ -1,7 +1,7 @@
 package cn.sepiggy.linkedlist.p21;
 
 /**
- * https://leetcode.cn/problems/merge-two-sorted-lists/submissions/
+ * https://leetcode.cn/problems/merge-two-sorted-lists/
  */
 class Solution {
 
