@@ -27,7 +27,7 @@ class Solution {
         return newHead;
     }
 
-    static class ListNode {
+    private static final class ListNode {
         int val;
         ListNode next;
 

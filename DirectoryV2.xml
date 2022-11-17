@@ -9,4 +9,8 @@
      <tree path="/src/main/java/cn/sepiggy/linkedlist/p234" title="回文链表"/>
      <tree path="/src/main/java/cn/sepiggy/linkedlist/p82" title="删除排序链表中的重复元素 II"/>
      <tree path="/src/main/java/cn/sepiggy/linkedlist/p146" title="LRU 缓存"/>
- </trees>
+     <tree path="/src/main/java/cn/sepiggy/linkedlist/p1472" title="设计浏览器历史记录"/>
+     <tree path="/src/main/java/cn/sepiggy/linkedlist/p141" title="环形链表"/>
+    <tree path="/src/main/java/cn/sepiggy/linkedlist/p142" title="环形链表 II"/>
+    <tree path="/src/main/java/cn/sepiggy/linkedlist/p19" title="删除链表的倒数第 N 个结点"/>
+</trees>
