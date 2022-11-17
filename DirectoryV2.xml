@@ -6,4 +6,7 @@
      <tree path="/src/main/java/cn/sepiggy/tree/basic" title="基础知识"/>
      <tree path="/src/main/java/cn/sepiggy/tree/basic/dfs" title="二叉树深度优先搜索"/>
      <tree path="/src/main/java/cn/sepiggy/tree/basic/dfs/inorder" title="中(根)序遍历"/>
+     <tree path="/src/main/java/cn/sepiggy/linkedlist/p234" title="回文链表"/>
+     <tree path="/src/main/java/cn/sepiggy/linkedlist/p82" title="删除排序链表中的重复元素 II"/>
+     <tree path="/src/main/java/cn/sepiggy/linkedlist/p146" title="LRU 缓存"/>
  </trees>
