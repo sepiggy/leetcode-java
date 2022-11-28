@@ -1,4 +1,4 @@
-package cn.sepiggy.linkedlist.p206;
+package cn.sepiggy.linkedlist.p206.s1;
 
 /**
  * Definition for singly-linked list.
@@ -15,15 +15,13 @@ class Solution {
     // eg. 1->2->3->4->5->null
     public ListNode reverseList(ListNode head) {
 
-        if (head == null || head.next == null) {
-            return head;
+        ListNode newHead = null;
+        while (head != null) {
+            ListNode next = head.next;
+            head.next = newHead;
+            newHead = head;
+            head = next;
         }
-
-        // 1->2<-3<-4<-5
-        ListNode newHead = reverseList(head.next);
-        head.next.next = head;
-        head.next = null;
-
         return newHead;
     }
 

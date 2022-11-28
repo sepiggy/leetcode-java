@@ -13,4 +13,9 @@
      <tree path="/src/main/java/cn/sepiggy/linkedlist/p141" title="环形链表"/>
     <tree path="/src/main/java/cn/sepiggy/linkedlist/p142" title="环形链表 II"/>
     <tree path="/src/main/java/cn/sepiggy/linkedlist/p19" title="删除链表的倒数第 N 个结点"/>
+    <tree path="/src/main/java/cn/sepiggy/linkedlist/p206" title="反转链表"/>
+    <tree path="/src/main/java/cn/sepiggy/linkedlist/p206/s1" title="迭代解法"/>
+    <tree path="/src/main/java/cn/sepiggy/linkedlist/p206/s2" title="递归解法"/>
+    <tree path="/src/main/java/cn/sepiggy/tree/p102" title="二叉树的层序遍历"/>
+    <tree path="/src/main/java/cn/sepiggy/tree/leetcode/p104" title="二叉树的最大深度"/>
 </trees>

@@ -1,21 +1,21 @@
-package cn.sepiggy.tree.p145;
+package cn.sepiggy.tree.leetcode.p94;
 
 import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
 
-    public List<Integer> postorderTraversal(TreeNode root) {
+    public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> ans = new ArrayList<>();
-        doPostOrder(root, ans);
+        doInorder(root,ans);
         return ans;
     }
 
-    private void doPostOrder(TreeNode root, List<Integer> ans) {
+    private void doInorder(TreeNode root, List<Integer> ans) {
         if (root != null) {
-            doPostOrder(root.left, ans);
-            doPostOrder(root.right, ans);
+            doInorder(root.left, ans);
             ans.add(root.val);
+            doInorder(root.right,ans);
         }
     }
 
@@ -37,4 +37,5 @@ class Solution {
             this.right = right;
         }
     }
+
 }
