@@ -18,4 +18,9 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/linkedlist/p206/s2" title="递归解法"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/tree/p102" title="二叉树的层序遍历"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/tree/leetcode/p104" title="二叉树的最大深度"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p705" title="设计哈希集合"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p706" title="设计哈希映射"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p136" title="只出现一次的数字"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p202" title="快乐数"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p349" title="两个数组的交集"/>
 </trees>

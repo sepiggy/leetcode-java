@@ -24,9 +24,10 @@ class Solution2 {
     // 记录遍历到的节点深度
     int depth = 0;
 
-    public int maxDepth(TreeNode root) {
-
-    }
+//    public int maxDepth(TreeNode root) {
+//        re
+//
+//    }
 
     // 二叉树遍历框架
     void traverse(TreeNode root) {
