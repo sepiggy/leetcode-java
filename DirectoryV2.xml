@@ -31,4 +31,7 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p36" title="有效的数独"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p652" title="寻找重复的子树"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p50" title="Pow(x, n)"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p215" title="数组中的第K个最大元素"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/loopinvariant" title="循环不变量"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/loopinvariant/p26" title="删除有序数组中的重复项"/>
 </trees>
