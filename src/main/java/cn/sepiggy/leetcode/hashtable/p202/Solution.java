@@ -11,7 +11,6 @@ class Solution {
 
         while (hashSet.add(n)) {
             int next = 0;
-            // ?????n
             while (n > 0) {
                 next += (n % 10) * (n % 10);
                 n /= 10;

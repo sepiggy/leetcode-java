@@ -1,8 +1,5 @@
 package cn.sepiggy.leetcode.tree.playground.demo001;
 
-/**
- * ???????
- */
 public class Main002 {
 
     static final class ListNode {
@@ -16,7 +13,6 @@ public class Main002 {
     }
 
     /**
-     * ???????
      *
      * @param head
      */
@@ -25,9 +21,7 @@ public class Main002 {
             return;
         }
 
-        // ????
         traverse(head.next);
-        // ????
     }
 
 }

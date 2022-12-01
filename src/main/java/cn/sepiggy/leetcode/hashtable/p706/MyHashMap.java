@@ -17,7 +17,6 @@ class MyHashMap {
         final int getResult = get(key);
         final int bucketIndex = hash(key);
         if (getResult != -1) {
-            // ??update
             Node visitNode = buckets[bucketIndex];
             while (visitNode != null) {
                 if (visitNode.key == key) {
@@ -27,12 +26,10 @@ class MyHashMap {
                 visitNode = visitNode.next;
             }
         } else {
-            // ??add
             Node visitNode = buckets[bucketIndex];
             while (visitNode.next != null) {
                 visitNode = visitNode.next;
             }
-            // ??visitNode????????
             visitNode.next = new Node(key, value);
             return;
         }
@@ -54,15 +51,12 @@ class MyHashMap {
         final int getResult = get(key);
         final int bucketIndex = hash(key);
         if (getResult == -1) {
-            // ?????????
             return;
         } else {
-            // ????????
             Node visitNode = buckets[bucketIndex];
             while (visitNode.next != null && visitNode.next.key != key) {
                 visitNode = visitNode.next;
             }
-            // ??visitNode????????????
             visitNode.next = visitNode.next.next;
             return;
         }

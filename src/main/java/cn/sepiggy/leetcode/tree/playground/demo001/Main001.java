@@ -1,7 +1,6 @@
 package cn.sepiggy.leetcode.tree.playground.demo001;
 
 /**
- * ??????
  */
 public class Main001 {
 
@@ -10,10 +9,8 @@ public class Main001 {
             return;
         }
 
-        // ????
         System.out.println(arr[i]);
         traverse(arr, i + 1);
-        // ????
     }
 
     public static void main(String[] args) {

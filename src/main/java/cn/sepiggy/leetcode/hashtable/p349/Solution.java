@@ -4,14 +4,12 @@ import java.util.*;
 
 class Solution {
 
-    // ??nums1?nums2????????????
     public int[] intersection(int[] nums1, int[] nums2) {
 
         final Set<Integer> nums1Set = new HashSet<>();
         final Set<Integer> intersect = new HashSet<>();
         final int[] result;
 
-        // ?nums1????
         for (int i : nums1) {
             nums1Set.add(i);
         }
