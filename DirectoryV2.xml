@@ -30,4 +30,5 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p49" title="字母异位词分组"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p36" title="有效的数独"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable/p652" title="寻找重复的子树"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p50" title="Pow(x, n)"/>
 </trees>
