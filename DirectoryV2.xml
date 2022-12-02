@@ -38,6 +38,7 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/loopinvariant/p27" title="移除元素"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/loopinvariant/p203" title="移除链表元素"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/loopinvariant/p80" title="删除有序数组中的重复项 II"/>
-    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion" title="递归分治"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion" title="递归分治深度优先遍历"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p2" title="两数相加"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p912" title="排序数组"/>
 </trees>
