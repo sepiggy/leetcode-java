@@ -7,12 +7,12 @@ class Solution {
         int len = nums.length;
 
         // 循环不变量: 保证nums[0..j)中不包含val
-        // j是下一个待赋值的位置
+        // j指向下一个待赋值元素的位置
         int j = 0;
         for (int i = 0; i < len; i++) {
             if (nums[i] != val) {
                 nums[j] = nums[i];
-                j++;
+                j++; // j指向下一个元素
             }
         }
 
