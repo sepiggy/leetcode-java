@@ -41,4 +41,9 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion" title="递归分治深度优先遍历"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p2" title="两数相加"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p912" title="排序数组"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p912/s1" title="归并排序"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/offer_p51" title="逆序对"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/offer_p51/s1" title="暴力解法"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/offer_p51/s2" title="深度优先遍历"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p315" title="计算右侧小于当前元素的个数"/>
 </trees>
