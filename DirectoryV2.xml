@@ -46,4 +46,5 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/offer_p51/s1" title="暴力解法"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/offer_p51/s2" title="深度优先遍历"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p315" title="计算右侧小于当前元素的个数"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p493" title="翻转对"/>
 </trees>
