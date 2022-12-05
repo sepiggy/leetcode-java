@@ -53,4 +53,7 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/queue" title="队列"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/queue/p346" title="数据流中的移动平均值"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/queue/p622" title="设计循环队列"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/stack" title="栈"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/hashtable" title="哈希表"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/stack/p232" title="用栈实现队列"/>
 </trees>
