@@ -48,4 +48,9 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p315" title="计算右侧小于当前元素的个数"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p493" title="翻转对"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p24" title="两两交换链表中的节点"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p110" title="平衡二叉树"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/recursion/p257" title="二叉树的所有路径"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/queue" title="队列"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/queue/p346" title="数据流中的移动平均值"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/queue/p622" title="设计循环队列"/>
 </trees>
