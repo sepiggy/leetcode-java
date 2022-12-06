@@ -1,22 +1,21 @@
-package cn.sepiggy.leetcode.tree.leetcode.p144;
+package cn.sepiggy.leetcode.tree.p145;
 
 import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
 
-    public List<Integer> preorderTraversal(TreeNode root) {
-        final List<Integer> integers = new ArrayList<>();
-        doPreorderTraversal(root, integers);
-        return integers;
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> ans = new ArrayList<>();
+        doPostOrder(root, ans);
+        return ans;
     }
 
-    private void doPreorderTraversal(TreeNode root, List<Integer> ans) {
-        // 边界处理：如果树为空，那么不需要处理
+    private void doPostOrder(TreeNode root, List<Integer> ans) {
         if (root != null) {
+            doPostOrder(root.left, ans);
+            doPostOrder(root.right, ans);
             ans.add(root.val);
-            doPreorderTraversal(root.left, ans);
-            doPreorderTraversal(root.right, ans);
         }
     }
 

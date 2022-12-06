@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.tree.leetcode.p104;
+package cn.sepiggy.leetcode.tree.p104;
 
 
 /**
@@ -16,30 +16,15 @@ package cn.sepiggy.leetcode.tree.leetcode.p104;
  * }
  * }
  */
-class Solution2 {
+class Solution1 {
 
-    // 记录最大深度
-    int res = 0;
-
-    // 记录遍历到的节点深度
-    int depth = 0;
-
-//    public int maxDepth(TreeNode root) {
-//        re
-//
-//    }
-
-    // 二叉树遍历框架
-    void traverse(TreeNode root) {
+    public int maxDepth(TreeNode root) {
         if (root == null) {
-            return;
+            return  0;
         }
-
-        // 前序位置
-        traverse(root.left);
-        // 中序位置
-        traverse(root.right);
-        // 后序位置
+        int leftMaxDepth = maxDepth(root.left);
+        int rightMaxDepth = maxDepth(root.right);
+        return Math.max(leftMaxDepth, rightMaxDepth) + 1;
     }
 
     static final class TreeNode {

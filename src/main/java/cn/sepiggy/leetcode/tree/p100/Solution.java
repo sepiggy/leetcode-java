@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.tree.leetcode.p100;
+package cn.sepiggy.leetcode.tree.p100;
 
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {

@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.tree.leetcode.p94;
+package cn.sepiggy.leetcode.tree.p94;
 
 import java.util.ArrayList;
 import java.util.List;

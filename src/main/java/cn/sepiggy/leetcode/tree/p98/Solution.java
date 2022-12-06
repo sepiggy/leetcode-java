@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.tree.leetcode.p98;
+package cn.sepiggy.leetcode.tree.p98;
 
 class Solution {
 
