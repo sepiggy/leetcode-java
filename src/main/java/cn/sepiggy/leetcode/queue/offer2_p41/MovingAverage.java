@@ -1,30 +1,31 @@
-package cn.sepiggy.leetcode.queue.p346;
+package cn.sepiggy.leetcode.queue.offer2_p41;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
 
 class MovingAverage {
 
-    private Queue<Integer> queue;
-    private int queueMaxSize;
-    private double sum;
+    Queue<Integer> numQueue;
+    int capacity;
+    int sum;
 
     /**
      * Initialize your data structure here.
      */
     public MovingAverage(int size) {
-        queue = new ArrayDeque<>();
-        queueMaxSize = size;
-        sum = 0;
+        numQueue = new ArrayDeque<>();
+        capacity = size;
     }
 
     public double next(int val) {
-        if (queue.size() == queueMaxSize) {
-            sum -= queue.poll();
-        }
-        queue.offer(val);
+        numQueue.offer(val);
         sum += val;
-        return sum / queue.size();
+        // 补偿
+        if (numQueue.size() > capacity) {
+            sum -= numQueue.poll();
+        }
+
+        return (double) sum / numQueue.size();
     }
 }
 
