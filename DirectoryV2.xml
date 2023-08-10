@@ -68,4 +68,7 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/tree/p637" title="二叉树的层平均值"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/tree/p199" title="二叉树的右视图"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/tree/p103" title="二叉树的锯齿形层序遍历"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/string/p76" title="最小覆盖子串"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/string/p3" title="无重复字符的最长子串"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/array/p1" title="两数之和"/>
 </trees>

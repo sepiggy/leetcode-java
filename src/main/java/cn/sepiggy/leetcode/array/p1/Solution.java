@@ -1,28 +1,24 @@
 package cn.sepiggy.leetcode.array.p1;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
- * https://leetcode.cn/problems/two-sum/
+ * 哈希表的解法: 以数组值作为key, 以数组下标作为value
  */
 class Solution {
+	public int[] twoSum(int[] nums, int target) {
 
-	public static int[] twoSum(int[] nums, int target) {
+		Map<Integer, Integer> map = new HashMap<>();
 
 		for (int i = 0; i < nums.length; i++) {
-			for (int j = i + 1; j < nums.length; j++) {
-				if (target == nums[i] + nums[j]) {
-					return new int[]{i, j};
-				}
+			if (map.containsKey(target - nums[i])) {
+				return new int[]{i, map.get(target - nums[i])};
+			} else {
+				map.put(nums[i], i);
 			}
 		}
 
-		return new int[]{-1, -1};
-	}
-
-	public static void main(String[] args) {
-		final int[] ints = {2, 7, 11, 15};
-		final int[] result = twoSum(ints, 9);
-		System.out.println(Arrays.toString(result));
+		return null;
 	}
 }
