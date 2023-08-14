@@ -86,4 +86,7 @@
     <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc141" title="环形链表"/>
     <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc142" title="环形链表II"/>
     <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc876" title="链表的中间节点"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/链表/递归/lc206" title="反转链表"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/数组/双指针/lc26" title="删除有序数组中的重复项"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc83" title="删除排序链表中的重复元素"/>
 </trees>

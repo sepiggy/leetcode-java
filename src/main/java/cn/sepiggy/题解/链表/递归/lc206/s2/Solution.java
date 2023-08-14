@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.linkedlist.p206.s2;
+package cn.sepiggy.题解.链表.递归.lc206.s2;
 
 /**
  * Definition for singly-linked list.
