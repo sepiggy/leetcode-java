@@ -1,8 +1,5 @@
 package cn.sepiggy.leetcode.linkedlist.p19.s1;
 
-/**
- * https://leetcode.cn/problems/remove-nth-node-from-end-of-list/
- */
 class Solution {
 
     private static final class ListNode {

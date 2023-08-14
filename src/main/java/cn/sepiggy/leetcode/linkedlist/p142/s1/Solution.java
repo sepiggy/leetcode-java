@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.linkedlist.p142;
+package cn.sepiggy.leetcode.linkedlist.p142.s1;
 
 /**
  * Definition for singly-linked list.

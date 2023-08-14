@@ -68,4 +68,11 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/tree/p637" title="二叉树的层平均值"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/tree/p199" title="二叉树的右视图"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/tree/p103" title="二叉树的锯齿形层序遍历"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/array/p1" title="两数之和"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/array/p15" title="三数之和"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/linkedlist/p86" title="分隔链表"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/linkedlist/p23" title="合并 k 个有序链表"/>
+    <tree path="/src/main/java/cn/sepiggy/剑指offer第2版/linkedlist/p22" title="链表中倒数第k个节点"/>
+    <tree path="/src/main/java/cn/sepiggy/剑指offer第2版/linkedlist/p18" title="删除链表的节点"/>
+    <tree path="/src/main/java/cn/sepiggy/leetcode/linkedlist/p876" title="链表的中间节点"/>
 </trees>

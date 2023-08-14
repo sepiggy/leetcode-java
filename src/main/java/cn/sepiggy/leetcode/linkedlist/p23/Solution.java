@@ -3,7 +3,7 @@ package cn.sepiggy.leetcode.linkedlist.p23;
 import java.util.PriorityQueue;
 
 /**
- * https://leetcode.cn/problems/merge-k-sorted-lists/
+ * 最小堆
  */
 class Solution {
 
@@ -29,18 +29,18 @@ class Solution {
         if (lists.length == 0) {
             return null;
         }
-        // 虚拟头结点
-        ListNode dummy = new ListNode(-1);
-        ListNode p = dummy;
+
+        // 虚拟头节点
+        ListNode dummyNode = new ListNode();
+        ListNode p = dummyNode;
 
         // 优先级队列，最小堆
-        PriorityQueue<ListNode> pq = new PriorityQueue<>(
-                lists.length, (a, b) -> (a.val - b.val));
+        PriorityQueue<ListNode> pq = new PriorityQueue<>((a, b) -> (a.val - b.val));
 
-        // 将 k 个链表的头结点加入最小堆
-        for (ListNode head : lists) {
-            if (head != null) {
-                pq.add(head);
+        // 将 k 个链表的头节点加入最小堆
+        for (ListNode headNode : lists) {
+            if (headNode != null) {
+                pq.add(headNode);
             }
         }
 
@@ -49,12 +49,13 @@ class Solution {
             ListNode node = pq.poll();
             p.next = node;
             if (node.next != null) {
+                // 将该节点的下一个节点放入最小堆
                 pq.add(node.next);
             }
             // p 指针不断前进
             p = p.next;
         }
 
-        return dummy.next;
+        return dummyNode.next;
     }
 }

@@ -1,8 +1,5 @@
-package cn.sepiggy.leetcode.linkedlist.p876;
+package cn.sepiggy.leetcode.linkedlist.p876.s1;
 
-/**
- * https://leetcode.cn/problems/middle-of-the-linked-list/
- */
 class Solution {
 
 	public ListNode middleNode(ListNode head) {

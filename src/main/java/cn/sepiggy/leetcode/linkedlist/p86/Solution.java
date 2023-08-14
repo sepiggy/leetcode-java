@@ -1,8 +1,5 @@
 package cn.sepiggy.leetcode.linkedlist.p86;
 
-/**
- * https://leetcode.cn/problems/partition-list/
- */
 public class Solution {
 
     static class ListNode {
