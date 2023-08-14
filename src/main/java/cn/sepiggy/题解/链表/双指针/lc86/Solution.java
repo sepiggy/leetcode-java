@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.linkedlist.p86;
+package cn.sepiggy.题解.链表.双指针.lc86;
 
 public class Solution {
 
@@ -55,5 +55,4 @@ public class Solution {
 
         return dummy1.next;
     }
-
 }

@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.linkedlist.p142.s2;
+package cn.sepiggy.题解.链表.双指针.lc142.s2;
 
 class Solution {
 

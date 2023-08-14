@@ -80,4 +80,10 @@
     <tree path="/src/main/java/cn/sepiggy/leetcode/array/p1" title="两数之和"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/array/p15" title="三数之和"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/linkedlist/p160" title="相交链表"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc19" title="删除链表的倒数第N个结点"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc23" title="合并k个有序链表"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc86" title="分隔链表"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc141" title="环形链表"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc142" title="环形链表II"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/链表/双指针/lc876" title="链表的中间节点"/>
 </trees>

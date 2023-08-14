@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.linkedlist.p142.s1;
+package cn.sepiggy.题解.链表.双指针.lc142.s1;
 
 /**
  * Definition for singly-linked list.

@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.linkedlist.p23;
+package cn.sepiggy.题解.链表.双指针.lc23;
 
 import java.util.PriorityQueue;
 

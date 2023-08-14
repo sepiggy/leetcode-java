@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.linkedlist.p19.s2;
+package cn.sepiggy.题解.链表.双指针.lc19.s2;
 
 
 // 虚拟头指针+快慢双指针

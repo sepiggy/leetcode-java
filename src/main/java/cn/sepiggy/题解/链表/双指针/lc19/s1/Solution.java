@@ -1,4 +1,4 @@
-package cn.sepiggy.leetcode.linkedlist.p19.s1;
+package cn.sepiggy.题解.链表.双指针.lc19.s1;
 
 class Solution {
 
