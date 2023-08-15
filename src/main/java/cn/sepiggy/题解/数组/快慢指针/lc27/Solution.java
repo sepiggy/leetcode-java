@@ -1,6 +1,4 @@
-package cn.sepiggy.题解.数组.双指针.lc27;
-
-import java.util.Arrays;
+package cn.sepiggy.题解.数组.快慢指针.lc27;
 
 class Solution {
     public int removeElement(int[] nums, int val) {
@@ -17,7 +15,7 @@ class Solution {
         while (fastPointer < len) {
 
             if (nums[fastPointer] != val) {
-                nums[slowPointer] = val;
+                nums[slowPointer] = nums[fastPointer];
                 slowPointer++;
             }
 
@@ -25,15 +23,5 @@ class Solution {
         }
 
         return slowPointer;
-    }
-
-    public static void main(String[] args) {
-        int[] nums = {3, 2, 2, 3};
-        int val = 3;
-        Solution solution = new Solution();
-        int i = solution.removeElement(nums, val);
-        System.out.println("i = " + i);
-        System.out.println("Arrays.toString(nums) = " + Arrays.toString(nums));
-
     }
 }

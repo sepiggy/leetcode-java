@@ -1,4 +1,4 @@
-package cn.sepiggy.题解.数组.双指针.lc26;
+package cn.sepiggy.题解.数组.快慢指针.lc26;
 
 class Solution {
     public int removeDuplicates(int[] nums) {
