@@ -96,4 +96,6 @@
     <tree path="/src/main/java/cn/sepiggy/题解/数组/左右指针/lc344" title="反转字符串"/>
     <tree path="/src/main/java/cn/sepiggy/题解/数组/左右指针/lc125" title="验证回文串"/>
     <tree path="/src/main/java/cn/sepiggy/题解/数组/左右指针/lc5" title="最长回文子串"/>
+    <tree path="/src/main/java/cn/sepiggy/template/traverse" title="遍历"/>
+    <tree path="/src/main/java/cn/sepiggy/模板/遍历" title="迭代遍历 or 递归遍历"/>
 </trees>

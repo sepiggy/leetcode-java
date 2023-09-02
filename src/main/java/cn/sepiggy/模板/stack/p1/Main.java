@@ -1,4 +1,4 @@
-package cn.sepiggy.template.stack.p1;
+package cn.sepiggy.模板.stack.p1;
 
 import java.util.ArrayDeque;
 import java.util.Arrays;
