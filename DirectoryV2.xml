@@ -108,4 +108,11 @@
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc116" title="填充每个节点的下一个右侧节点指针"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc114" title="二叉树展开为链表"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc114" title="二叉树展开为链表"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc654" title="最大二叉树"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc105" title="从前序与中序遍历序列构造二叉树"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc101" title="对称二叉树"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc112" title="路径总和"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc257" title="二叉树的所有路径"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc129" title="求根节点到叶节点数字之和"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc199" title="二叉树的右视图"/>
 </trees>
