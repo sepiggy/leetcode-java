@@ -118,4 +118,6 @@
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc1022" title="从根到叶的二进制数之和"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc988" title="从叶结点开始的最小字符串"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc1457" title="二叉树中的伪回文路径"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc404" title="左叶子之和"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc617" title="合并二叉树"/>
 </trees>
