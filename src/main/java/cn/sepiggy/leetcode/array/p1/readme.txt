@@ -1,1 +1,1 @@
-https://leetcode.cn/problems/two-sum/description/
+https://leetcode.cn/problems/two-sum/
