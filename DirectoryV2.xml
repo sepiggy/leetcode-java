@@ -121,4 +121,7 @@
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc404" title="左叶子之和"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/遍历/lc617" title="合并二叉树"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc100" title="相同的树"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc101" title="对称二叉树"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc951" title="翻转等价二叉树"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc112" title="路径总和"/>
 </trees>
