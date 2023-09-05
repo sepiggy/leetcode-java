@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <trees>
-    <tree path="/src/main/java/cn/sepiggy/leetcode/queue/p933" title="最近的请求次数"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/queue/p225" title="用队列实现栈"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/queue/bfs" title="演示二叉树广度优先搜索"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/linkedlist/p234" title="回文链表"/>
@@ -60,7 +59,6 @@
     <tree path="/src/main/java/cn/sepiggy/template/stack/p1" title="单调栈"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/stack/p496" title="下一个更大元素 I"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/stack/p739" title="每日温度"/>
-    <tree path="/src/main/java/cn/sepiggy/leetcode/queue/offer2_p41" title="滑动窗口的平均值"/>
     <tree path="/src/main/java/cn/sepiggy/leetcode/bfs" title="广度优先遍历"/>
     <tree path="/src/main/java/cn/sepiggy/template/tree/p1" title="二叉树的dfs遍历"/>
     <tree path="/src/main/java/cn/sepiggy/template/tree/p2" title="二叉树的层序遍历"/>
@@ -124,4 +122,8 @@
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc101" title="对称二叉树"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc951" title="翻转等价二叉树"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc112" title="路径总和"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/递归/lc119" title="杨辉三角II"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc111" title="二叉树的最小深度"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/队列/lcr041" title="滑动窗口的平均值"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/队列/lc933" title="最近的请求次数"/>
 </trees>
