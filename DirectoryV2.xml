@@ -130,4 +130,6 @@
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/层序遍历/lc637" title="二叉树的层平均值"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/层序遍历/lc515" title="在每个树行中找最大值"/>
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/层序遍历/lc199" title="二叉树的右视图"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/层序遍历/lc107" title="二叉树的层序遍历II"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/层序遍历/lc111" title="二叉树的最小深度"/>
 </trees>
