@@ -1,4 +1,4 @@
-package cn.sepiggy.题解.二叉树.层序遍历.lc637;
+package cn.sepiggy.题解.二叉树.层序遍历.lc199;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -6,15 +6,15 @@ import java.util.List;
 import java.util.Queue;
 
 /**
- * lc637. 二叉树的层平均值
- * https://leetcode.cn/problems/average-of-levels-in-binary-tree/description/
+ * lc199. 二叉树的右视图
+ * https://leetcode.cn/problems/binary-tree-right-side-view/description/
  */
 class Solution {
 
-	List<Double> result = new ArrayList<>();
+	List<Integer> result = new ArrayList<>();
 	Queue<TreeNode> queue = new ArrayDeque<>();
 
-	public List<Double> averageOfLevels(TreeNode root) {
+	public List<Integer> rightSideView(TreeNode root) {
 
 		if (root != null) {
 			queue.offer(root);
@@ -23,11 +23,13 @@ class Solution {
 		while (!queue.isEmpty()) {
 
 			int levelSize = queue.size();
-			double levelSum = 0.0;
-
 			for (int i = 0; i < levelSize; i++) {
+
 				TreeNode treeNode = queue.poll();
-				levelSum += treeNode.val;
+
+				if (i == levelSize - 1) {
+					result.add(treeNode.val);
+				}
 
 				if (treeNode.left != null) {
 					queue.offer(treeNode.left);
@@ -37,8 +39,6 @@ class Solution {
 					queue.offer(treeNode.right);
 				}
 			}
-
-			result.add(levelSum / levelSize);
 		}
 
 		return result;

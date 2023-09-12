@@ -23,10 +23,10 @@ class Solution {
 
 		while (!queue.isEmpty()) { // 每层从左到右遍历
 
-			int size = queue.size();
+			int levelSize = queue.size();
 			List<Integer> levelList = new ArrayList<>();
 
-			for (int i = 0; i < size; i++) {
+			for (int i = 0; i < levelSize; i++) {
 
 				TreeNode treeNode = queue.poll();
 				levelList.add(treeNode.val);

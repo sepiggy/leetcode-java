@@ -126,4 +126,8 @@
     <tree path="/src/main/java/cn/sepiggy/题解/二叉树/分解问题/lc111" title="二叉树的最小深度"/>
     <tree path="/src/main/java/cn/sepiggy/题解/队列/lcr041" title="滑动窗口的平均值"/>
     <tree path="/src/main/java/cn/sepiggy/题解/队列/lc933" title="最近的请求次数"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/层序遍历/lc102" title="二叉树的层序遍历"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/层序遍历/lc637" title="二叉树的层平均值"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/层序遍历/lc515" title="在每个树行中找最大值"/>
+    <tree path="/src/main/java/cn/sepiggy/题解/二叉树/层序遍历/lc199" title="二叉树的右视图"/>
 </trees>
